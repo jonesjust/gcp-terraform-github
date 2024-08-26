@@ -18,8 +18,8 @@ provider "google" {
 
 
 # create a new storage bucket
-resource "google_storage_bucket" "data_lake_raw_bucket" {
-  name                        = "data-lake-raw-bucket"
+resource "google_storage_bucket" "data_lake_raw_bucket22" {
+  name                        = "data-lake-raw-bucket22"
   location                    = "US"
   force_destroy               = true
   public_access_prevention    = "enforced"
